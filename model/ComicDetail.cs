@@ -1,9 +1,7 @@
 ﻿namespace dmzj_spider.model;
 
-public class ComicDetail {
+public class ComicDetail : BaseVo {
 
-    public int errno { get; set; }
-    public string errmsg { get; set; }
     public Data data { get; set; }
 
     public class Data {
